@@ -9,8 +9,8 @@ import { RoundedImage } from "../roundedImage"
 
 export const Facilities = () => {
     return (
-        <div className="flex justify-center w-full">
-            <div className="flex items-center justify-center w-10/12">
+        <div className="flex justify-center w-full py-14 bg-slate-100">
+            <div className="flex items-center justify-center w-11/12">
                 <Grid container columnGap={3}>
                     <Grid container xs={4}>
                         <RoundedImage name={"Rooms"} img={RoomsImage} />
